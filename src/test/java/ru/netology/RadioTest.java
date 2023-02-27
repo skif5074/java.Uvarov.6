@@ -45,7 +45,7 @@ class RadioTest {
   radio.setCurrentStation(0);
   radio.prevCurrentStation();
   assertEquals(9, radio.getCurrentStation());
-  assertEquals(7, radio.getCurrentStation());
+
  }
 
  @Test
